@@ -1,3 +1,8 @@
 const contacts = require("./contacts");
 
-console.log(contacts);
+const fetchData = async () => {
+  const getAll = await contacts.getAllContacts();
+  console.log(getAll);
+};
+
+fetchData();
