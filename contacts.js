@@ -34,9 +34,9 @@ async function addContact(name, email, phone) {
     email,
     phone,
   };
-  books.push(newBook);
-  await fs.writeFile(booksPath, JSON.stringify(books, null, 2));
-  return newBook;
+  contacts.push(newContact);
+  await fs.writeFile(contactsPath, JSON.stringify(contacts, null, 2));
+  return newContact;
 }
 
 module.exports = {
