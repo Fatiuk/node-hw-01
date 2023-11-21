@@ -1,30 +1,30 @@
-# Получаем и выводим весь список контактов в виде таблицы (console.table)
+# Get and display the entire list of contacts in a table format (console.table)
 
-![Contacts list](images/all.png)
+![Contacts list](/images/all.jpg)
 
 ```sh
 node index.js --action list
 ```
 
-# Получаем контакт по id - выводим в консоль объект контакта или null, если контакта с таким id не существует.
+# Retrieve a contact by ID - display the contact object in the console or null if a contact with that ID does not exist.
 
-![Get contact by ID](images/byid.png)
+![Get contact by ID](/images/byid.jpg)
 
 ```sh
 node index.js --action get --id 05olLMgyVQdWRwgKfg5J6
 ```
 
-# Добавляем контакт и выводим в консоль созданный контакт
+# Add a new contact and display the created contact in the console.
 
-![Added new contact](images/byid.png)
+![Added new contact](/images/byid.jpg)
 
 ```sh
 node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
 ```
 
-# Удаляем контакт и выводим в консоль удаленный контакт или null, если контакта с таким id не существует.
+# Remove a contact and display the deleted contact in the console or null if a contact with that ID does not exist.
 
-![Remove contact by ID](images/byid.png)
+![Remove contact by ID](/images/byid.jpg)
 
 ```sh
 node index.js --action remove --id qdggE76Jtbfd9eWJHrssH
